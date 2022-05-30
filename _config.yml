@@ -1,5 +1,5 @@
 # Setup
-title: .data
+title: Josh Janvrin
 url: https://icy-darkness-9346.on.fleek.co/
 paginate: 1
 baseurl: ""
@@ -34,7 +34,7 @@ sass:
 author: 
   name: Josh Janvrin
   url: 
-  email: 
+  email: josh.janvrin@gmail.com
 
 # Custom vars
 version: 3.0.0
