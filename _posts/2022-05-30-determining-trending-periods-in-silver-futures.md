@@ -65,6 +65,6 @@ What 30-minute periods have the highest trend ratings?
 
 ![Silver Futures 30-minute Window Trend Rating](/assets/silver_futures_30min_window_trend_rating.png)
 
-This result is somewhat surprising. There are in fact some clusters of trendy 30-minute periods, including the hard-to-ignore 11:30-12:00 window.
+This result is somewhat surprising. There are in fact some clusters of trendy 30-minute periods, including some stand-outs between 11:30-12:15.  Of note is that both the COMEX and New York open have very low trend ratings, despite being most 'active'.
 
-At the very least, this result warrants adapting some trend trading strategies, running them through quantstrat, and seeing if confining the time period to this window improves the profit factor.
+At the very least, this result warrants adapting some trend trading strategies, running them through quantstrat, and seeing if confining the time period to these windows improves profit factors.
