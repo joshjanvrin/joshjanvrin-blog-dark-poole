@@ -3,4 +3,6 @@ layout: page
 title: About
 ---
 
-Experiments in data science using R.
+The personal blog of Josh Janvrin.
+
+Experiments in data science: financial markets, eBird.
