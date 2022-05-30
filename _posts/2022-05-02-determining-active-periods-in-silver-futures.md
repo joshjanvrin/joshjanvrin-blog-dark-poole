@@ -33,7 +33,6 @@ period.lst <- list(1, 3, 5, 10, 15, 30)
 xts.lst <- period.lst %>%
   map(~ to.period(asset.xts, period = "minutes", k = ., name = NULL)) %>%
   set_names(paste("period", period.lst, sep = "."))
-xts.5min <- xts.lst[['period.5']]
 ```
 
 Let's work with the 5-minute periodicity as an example.
@@ -85,7 +84,7 @@ CalculateWindowRanges <- function(x.ts, period, trading.window){
   return(x.ts)
 }
 
-tbl.summary.30window.5min <- .xts.lst[['period.5']] %>%
+tbl.summary.30window.5min <- xts.lst[['period.5']] %>%
   CalculateWindowRanges(period = 5, trading.window = 30) %>%
   fortify.zoo(.) %>%
   mutate(time = format(lubridate::ymd_hms(Index), format = "%H:%M:%S")) %>%

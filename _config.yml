@@ -1,5 +1,5 @@
 # Setup
-title: dataa
+title: .data
 url: https://icy-darkness-9346.on.fleek.co/
 paginate: 1
 baseurl: ""
@@ -31,8 +31,8 @@ sass:
 # ga_analytics: UA-000000-0
 
 # Specify the author for blog posts
-author:
-  name: anonymous
+author: 
+  name: Josh Janvrin
   url: 
   email: 
 
